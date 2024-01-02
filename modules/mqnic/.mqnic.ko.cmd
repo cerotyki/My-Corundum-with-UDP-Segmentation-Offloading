@@ -1,0 +1,1 @@
+cmd_/home/junghan/corundum-original/modules/mqnic/mqnic.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/junghan/corundum-original/modules/mqnic/mqnic.ko /home/junghan/corundum-original/modules/mqnic/mqnic.o /home/junghan/corundum-original/modules/mqnic/mqnic.mod.o ;  true
