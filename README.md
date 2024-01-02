@@ -231,3 +231,6 @@ Corundum internally uses the following libraries:
 *  https://github.com/alexforencich/verilog-pcie
 *  https://github.com/solemnwarning/timespec
 
+## Where is the module for UDP Segmentation Offloading?
+
+/fpga/common/rtl/tx_uso.v is responsible for USO function.
